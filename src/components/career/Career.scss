@@ -1,0 +1,47 @@
+@import "../../global.scss";
+
+.career {
+  // background-color: #133b5c;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 50px;
+  // font-size: 16px;
+
+  h1 {
+    text-align: center;
+    color: $mainColor;
+    font-size: 50px;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+}
+
+// @import url("https://fonts.googleapis.com/css?family=Lato");
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// .career {
+//   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+//   font-family: "Lato", sans-serif;
+//   display: flex;
+//   flex-direction: column;
+//   position: relative;
+
+//   h1 {
+//     text-align: center;
+//     z-index: 2;
+//     background-image: inherit;
+//   }
+// }
+
+// .career::after {
+//   background-color: #e17b77;
+//   content: "";
+//   position: absolute;
+//   left: calc(50% - 2px);
+//   width: 4px;
+//   height: 100%;
+// }

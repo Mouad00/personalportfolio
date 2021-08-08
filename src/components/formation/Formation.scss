@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.formation {
+  //   background-color: lightblue;
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: $mainColor;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+}

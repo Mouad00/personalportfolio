@@ -1,0 +1,66 @@
+@import "../../global.scss";
+
+.enseignement {
+  //   background-color: rosybrown;
+  justify-content: center;
+
+  //   align-items: center;
+  padding: 30px 0;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: $mainColor;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+
+    .icon {
+      background-color: #00b4d8;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 250px;
+      height: 300px;
+      border-radius: 10px;
+      margin: 10px 20px;
+      // background-color: rgba($color: #ced8da, $alpha: 0.9);
+      background-color: #f8f9fa;
+      box-shadow: 0px 0px 10px -3px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      transition: all 1s ease-out;
+
+      &:hover {
+        opacity: 0.9;
+        transform: scale(1.1);
+      }
+
+      p {
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+      }
+    }
+  }
+}
